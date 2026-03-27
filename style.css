@@ -96,4 +96,63 @@ button {
     border: #22c55e solid 1px;
     border-radius: 5px;
     color: #e2e8f0;
+    padding: 5px;
+}
+.padding-top {
+    padding-top: 15px;
+}
+input {
+    background-color: #e2e8f0;
+    border-color: #e2e8f0;
+    color:  black;
+}
+.loader {
+    height: 100px;
+    width: 100px;
+    animation: spin 2s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.bi-arrow-clockwise {
+    color:  #e2e8f0;
+}
+
+#container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.bi-patch-check-fill {
+    color: #22c55e;
+}
+
+#container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.password-saved {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.Saved {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -20,11 +20,11 @@
             <div class="Hero">
                 <div class="input-holder-wrapper">
                     <div class="input-holder">
-                        <p>Account</p>
+                        <p class="padding-top">Account Name</p>
                         <input class="password" id="account" type="text" required>
-                        <p>Username</p>
+                        <p class="padding-top">Username</p>
                         <input class="password" id="username" type="text" required>
-                        <p>Password</p>
+                        <p class="padding-top">Password</p>
                         <input class="password" id="password" type="text" required>
                     </div>
                     <button id="save">Save</button>
@@ -42,7 +42,6 @@
                     </svg>
                 </button>
                 <h2 id="mini-header">VAULT</h2>
-                <p>Refresh Page to Update</p>
                 <div class="block" id="item">
                     <p class="block-p" id="account-block">Account</p>
                     <p id="reveal-account"></p>
@@ -75,6 +74,30 @@
                         </button> 
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="container3">
+            <div class="loader">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                    <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                </svg>
+            </div>
+            <p>Saving Password</p>
+        </div>
+        <div id="container4">
+            <div class="return-button2-holder">
+                <button id="return-button2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left nav-svg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="Saved">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                    <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                </svg>
+                <p class="password-saved">Password Successfully Saved</p>
             </div>
         </div>
     </section>

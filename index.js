@@ -11,7 +11,8 @@ $("#container2").hide();
 $("#hide-button").hide();
 $("#front-button").hide();
 $("#back-button").hide();
-
+$("#container3").hide();
+$("#container4").hide();
 
 $("#hide-button").click(hidePassword);
 
@@ -25,6 +26,7 @@ function hidePassword () {
 }
 
 $("#reveal-button").click(showPassword);
+
 
 function showPassword () {
     $("#mini-header").text("VAULT " + vault);
@@ -64,6 +66,10 @@ $("#back-button").click(function () {
     
 });
 
+$("#return-button2").click(function () {
+   window.location.reload();
+});
+
 
 var savedAccounts = JSON.parse(localStorage.getItem('accounts'));
 var savedUsernames = JSON.parse(localStorage.getItem('usernames'));
@@ -89,6 +95,14 @@ saveInput.addEventListener("click", function () {
     localStorage.setItem('accounts', JSON.stringify(savedAccounts));
     localStorage.setItem('usernames', JSON.stringify(savedUsernames));
     localStorage.setItem('passwords', JSON.stringify(savedPasswords));
+
+    $("#container1").hide()
+    $("#container3").show();
+
+   setTimeout(() => {
+     $("#container3").hide();
+     $("#container4").show();
+   },1000);
     
 });
 
