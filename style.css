@@ -1,0 +1,99 @@
+body {
+    background-color: #0f172a;
+}
+
+#login-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg {
+    width: 72px;
+    height: 52px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-p {
+    text-align: center;
+}
+.Hero {
+    margin-top: 50px;
+}
+.header2 {
+    margin-top: 50px;
+}
+.button-wrapper {
+    margin-top: 100px;
+}
+.text-wrapper {
+    margin-top: 50px;
+}
+.input-holder-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.block-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.block {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-button-holders {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 20px;
+}
+.nav-svg {
+    width: 20px;
+    height: 20px;
+}
+.view-svg {
+    width: 20px;
+    height: 20px;
+}
+.block-p {
+    font-weight: bold;
+}
+h1 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #e2e8f0;
+}
+
+p {
+font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #94a3b8
+}
+h2 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #e2e8f0;
+}
+button {
+    background-color: #22c55e;
+    border: solid 5px;
+    border-radius: 10px;
+    color: #e2e8f0;
+}
